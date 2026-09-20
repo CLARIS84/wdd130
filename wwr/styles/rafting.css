@@ -1,6 +1,6 @@
 :root {
     --primary-color: #070b56;
-    --secondary-color: #777eff;
+    --secondary-color: #cccee9;
     --accent1-color: #4e5e79;
     --accent2-color: #0c0ce9;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -21,7 +21,8 @@ header {
 
 body {
     font-family: var(--body-font);
-    color: var(--accent1-color);
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
 }
 
 header,
@@ -41,7 +42,7 @@ h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    /* text-align: center; */
+
 }
 
 nav,
@@ -88,6 +89,10 @@ article {
     color: #fff;
 }
 
+.hero article {
+    position: absolute;
+}
+
 .hero article img {
     float: right;
     width: 150px;
@@ -100,65 +105,6 @@ footer {
     text-align: center;
 }
 
-/* 
-main img {
-    width: 200px;
-    height: auto;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 2px;
-    box-shadow: 0 0 30px rgb(10, 10, 10);
-    float: right;
+footer img {
+    width: 40px;
 }
-
-aside {
-    width: 300px;
-    margin: 10px 0;
-    border: 1px solid black;
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-    text-align: left;
-    position: relative;
-
-}
-
-aside img {
-    width: 265px;
-    height: auto;
-    display: block;
-
-} 
-
-aside h2 {
-    position: absolute;
-    left: 40%;
-    transform: translateX(-50%);
-    top: 2rem;
-}
-
-nav {
-    background-color: rgb(193, 157, 213);
-    padding: 20px;
-}
-
-nav a {
-    color: rgb(104, 2, 198);
-    display: block;
-    padding: 10px;
-}
-
-footer {
-    background-color: rgb(193, 157, 213);
-    margin-top: 20px;
-    border-top: 5px double rgb(104, 2, 198);
-    text-align: center;
-}
-*/
-/* Class Selectors */
-/* .box {
-    margin: 1rem;
-    border: 1px solid black;
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
-} */
