@@ -55,6 +55,7 @@ article {
 
 .socialmedia a {
     text-decoration: none;
+    width: 40px;
 }
 
 .hero {
@@ -103,8 +104,4 @@ footer {
     background-color: var(--primary-color);
     color: var(--accent1-color);
     text-align: center;
-}
-
-footer img {
-    width: 40px;
 }
