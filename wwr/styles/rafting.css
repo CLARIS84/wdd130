@@ -1,0 +1,164 @@
+:root {
+    --primary-color: #070b56;
+    --secondary-color: #777eff;
+    --accent1-color: #4e5e79;
+    --accent2-color: #0c0ce9;
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    padding: 5px;
+}
+
+body {
+    font-family: var(--body-font);
+    color: var(--accent1-color);
+}
+
+header,
+main,
+footer {
+    width: 840px;
+    margin: 0 auto;
+
+}
+
+nav a {
+    display: block;
+    padding: 5px;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    /* text-align: center; */
+}
+
+nav,
+p,
+section,
+article {
+    padding: 8px;
+    margin: 16px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+article {
+    position: absolute;
+    margin-left: 60%;
+    top: 70px;
+    width: 40%;
+    padding: 10px;
+    text-align: left;
+    background-color: var(--accent1-color);
+    color: #fff;
+}
+
+.hero article img {
+    float: right;
+    width: 150px;
+    box-shadow: 0 0 20px rgb(10, 10, 10);
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    text-align: center;
+}
+
+/* 
+main img {
+    width: 200px;
+    height: auto;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(10, 10, 10);
+    float: right;
+}
+
+aside {
+    width: 300px;
+    margin: 10px 0;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+    text-align: left;
+    position: relative;
+
+}
+
+aside img {
+    width: 265px;
+    height: auto;
+    display: block;
+
+} 
+
+aside h2 {
+    position: absolute;
+    left: 40%;
+    transform: translateX(-50%);
+    top: 2rem;
+}
+
+nav {
+    background-color: rgb(193, 157, 213);
+    padding: 20px;
+}
+
+nav a {
+    color: rgb(104, 2, 198);
+    display: block;
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(193, 157, 213);
+    margin-top: 20px;
+    border-top: 5px double rgb(104, 2, 198);
+    text-align: center;
+}
+*/
+/* Class Selectors */
+/* .box {
+    margin: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #eee;
+    color: #333;
+} */
