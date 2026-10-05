@@ -74,6 +74,10 @@ article {
     margin: 16px;
 }
 
+/* p {
+    padding: 1rem;
+} */
+
 .socialmedia a {
     text-decoration: none;
     width: 40px;
@@ -134,10 +138,14 @@ article {
     text-align: center;
 }
 
+.history img {
+    width: 300px;
+}
+
 .adventure {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 10fr;
+    grid-template-rows: 1fr 6fr;
     border: 3px solid var(--primary-color);
     align-items: center;
     text-align: center;
@@ -145,6 +153,10 @@ article {
 
 .adventure h2 {
     grid-column: 1/6;
+}
+
+.adventure img {
+    width: 150px;
 }
 
 footer {
