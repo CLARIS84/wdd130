@@ -1,75 +1,22 @@
-:root {
-    --main-border: 1px solid black;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+a {
+    color: rgb(144, 247, 231);
+}
+
 header,
 .grid,
 footer {
-    max-width: 840px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
-p {
-    padding: 0;
-    margin: 20px;
-
-}
-
-main img {
-    width: 200px;
-    height: auto;
-    border: 1px solid rgb(255, 255, 255);
-    padding: 2px;
-    box-shadow: 0 0 30px rgb(10, 10, 10);
-    float: right;
-}
-
-.grid {
-    display: grid;
-    align-items: center;
-}
-
-main {
-    grid-column: 2/3;
-    margin: 1rem;
-}
-
-aside {
-    width: 20rem;
-    position: relative;
-    grid-column: 1/2;
-    grid-row: 1/2;
-    /* margin: 10px 0; */
-    /* border: var(--main-border); */
-    /* padding: 1rem; */
-    /* background-color: #eee; */
-    /* color: #333; */
-    /* text-align: left; */
-
-}
-
-aside img {
-    width: 265px;
-    height: auto;
-    display: block;
-
-}
-
-aside h2 {
-    position: absolute;
-    left: 40%;
-    transform: translateX(-50%);
-    top: 2rem;
-}
-
 nav {
-    background-color: rgb(2, 121, 168);
+    background-color: rgb(6, 103, 152);
     padding: 1rem;
     display: flex;
     justify-content: space-evenly;
@@ -85,21 +32,75 @@ nav a {
     color: white;
 }
 
+main {
+    max-width: 50rem;
+    grid-column: 2/3;
+    margin: 1rem 0;
+}
+
 h1 {
-    color: rgb(2, 121, 168);
+    border-bottom: 1px solid rgb(6, 103, 152);
+}
+
+aside {
+    width: 20rem;
+    margin: 10px;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+aside img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+aside h2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3rem;
+}
+
+main img {
+    width: 15rem;
+    height: auto;
+    box-shadow: 0 0 30px black;
+    float: right;
+    margin: 1rem 0 1rem 1rem;
+}
+
+p {
+    padding: 1rem;
 }
 
 footer {
-    margin-top: 20px;
-    border-top: var(--main-border);
+    background-color: rgb(6, 103, 152);
+    color: #fff;
+    padding: 2rem 1rem;
     text-align: center;
+    /*  margin: 2rem auto; */
+
+}
+
+ul {
+    list-style: none;
+    padding: 1rem;
 }
 
 /* Class Selectors */
 .box {
-    margin: 1rem;
-    border: var(--main-border);
+    border: black;
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: rgb(0, 66, 93);
+    color: white
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
