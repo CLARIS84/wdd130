@@ -84,11 +84,11 @@ label {
 }
 
 button {
-    margin: 1rem auto 1rem auto;
+    margin: 1rem auto;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     border-radius: .3rem;
-    width: 200px;
+    width: fit-content;
     padding: .5rem;
     font-size: 1.2rem;
 }
