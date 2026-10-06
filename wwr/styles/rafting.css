@@ -74,9 +74,9 @@ article {
     margin: 16px;
 }
 
-/* p {
-    padding: 1rem;
-} */
+p {
+    padding: .2rem;
+}
 
 .socialmedia a {
     text-decoration: none;
@@ -93,7 +93,7 @@ article {
     height: auto;
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -156,6 +156,95 @@ article {
 }
 
 .adventure img {
+    width: 150px;
+}
+
+.information {
+    position: relative;
+    margin: 0;
+    padding-top: 6rem;
+    text-align: center;
+}
+
+.information h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.information p {
+    font-size: 1.5rem;
+}
+
+.contact {
+    display: flex;
+}
+
+iframe {
+    width: 100%;
+    border-style: hidden;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+fieldset {
+    border: solid 3px var(--accent2-color);
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+}
+
+fieldset div {
+    margin: 15px;
+}
+
+label,
+input,
+textarea {
+    font-size: 1.1rem;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    outline: 2px solid var(--accent2-color);
+}
+
+button {
+    font-size: 1.25em;
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 3px solid var(--accent2-color);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto;
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 3fr;
+    border: 3px solid var(--primary-color);
+    align-items: center;
+    text-align: center;
+}
+
+.employees h2 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.employees img {
     width: 150px;
 }
 
