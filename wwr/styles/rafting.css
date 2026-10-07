@@ -75,7 +75,6 @@ article {
 }
 
 p {
-    padding: .2rem;
     margin: 0;
 }
 
@@ -122,8 +121,16 @@ article {
 
 .hero article img {
     float: right;
-    width: 150px;
+    width: 130px;
     box-shadow: 0 0 20px rgb(10, 10, 10);
+    margin: .5rem;
+}
+
+.hero h3,
+.hero p {
+    text-align: center;
+    padding: .3rem;
+    line-height: 1.5rem;
 }
 
 .history {
@@ -141,6 +148,11 @@ article {
 
 .history img {
     width: 300px;
+}
+
+.history p {
+    text-align: center;
+    line-height: 1.5rem;
 }
 
 .adventure {
