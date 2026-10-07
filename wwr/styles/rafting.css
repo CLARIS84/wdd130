@@ -18,7 +18,7 @@ header {
     display: grid;
     grid-template-columns: 200px 1fr;
     align-items: center;
-    max-width: 1000px;
+    max-width: 1200px;
     background-color: var(--primary-color);
     color: var(--accent1-color);
     padding: 5px;
@@ -58,6 +58,17 @@ footer nav {
     justify-content: flex-end;
 }
 
+h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.8;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
@@ -77,9 +88,37 @@ p {
     margin: 0;
 }
 
-.socialmedia a {
-    text-decoration: none;
-    width: 40px;
+.homehero {
+    position: relative;
+}
+
+.homehero img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+.homehero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+}
+
+.homehero article {
+    position: absolute;
+    margin: auto;
+    opacity: 0.8;
+    top: 80%;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
 }
 
 .hero {
@@ -90,17 +129,6 @@ p {
     display: block;
     width: 100%;
     height: auto;
-}
-
-.hero h1 {
-    position: absolute;
-    top: 20px;
-    width: 100%;
-    padding: 16px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
 }
 
 article {
@@ -179,7 +207,7 @@ article {
     text-align: center;
 }
 
-.information h1 {
+/* .information h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -187,7 +215,7 @@ article {
     text-align: center;
     background-color: var(--accent1-color);
     color: var(--primary-color);
-}
+} */
 
 .information p {
     font-size: 1.5rem;
@@ -222,7 +250,8 @@ fieldset div {
 
 label,
 input,
-textarea {
+textarea,
+legend {
     font-size: 1.1rem;
 }
 
@@ -259,6 +288,11 @@ button {
 
 .employees img {
     width: 150px;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    width: 40px;
 }
 
 footer {
