@@ -3,7 +3,7 @@
     --secondary-color: #cddcf9;
     --accent1-color: #9db1d6;
     --accent2-color: #1e3256;
-    --heading-font: "Times New Roman", "Georgia", serif;
+    --heading-font: Verdana, Geneva, Tahoma, sans-serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
 
@@ -52,7 +52,6 @@ nav {
 header nav {
     justify-content: space-around;
     border: 3px solid var(--accent1-color);
-
 }
 
 footer nav {
@@ -126,11 +125,12 @@ article {
     margin: .5rem;
 }
 
-.hero h3,
+.hero h2,
 .hero p {
     text-align: center;
     padding: .3rem;
     line-height: 1.5rem;
+
 }
 
 .history {
