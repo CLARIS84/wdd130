@@ -163,11 +163,74 @@ p {
 }
 
 .raftinglong {
-    grid-area: 2/1/4/2;
+    grid-area: 1/3/4/4;
 }
 
 .raftingwide {
-    grid-area: 1/2/2/4;
+    grid-area: 3/1/4/3;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 70px 300px 300px 300px 50px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    row-gap: 40px;
+    text-align: center;
+}
+
+.trips img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.trips p {
+    line-height: .6rem;
+}
+
+.triptop {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.tripbottom {
+    grid-column: 1/3;
+    text-align: center;
+    /* font-weight: 700; */
+    font-size: x-large;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid var(--primary-color);
+}
+
+th,
+td {
+    border: 1px solid var(--primary-color);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+thead th,
+tfoot tr {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.yes {
+    color: green;
+    font-weight: bold;
+}
+
+.no {
+    color: red;
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .hero article {
