@@ -109,7 +109,7 @@ p {
     color: var(--primary-color);
 }
 
-.homehero article {
+.homehero div {
     position: absolute;
     margin: auto;
     opacity: 0.8;
