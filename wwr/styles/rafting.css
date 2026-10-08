@@ -173,7 +173,7 @@ p {
 .trips {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 70px 300px 300px 300px 50px;
+    grid-template-rows: 100px 300px 300px 300px 50px;
     margin-top: 2rem;
     margin-bottom: 4rem;
     row-gap: 40px;
