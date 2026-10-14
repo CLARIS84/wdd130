@@ -112,23 +112,22 @@ p {
 .homehero div {
     position: absolute;
     margin: auto;
-    opacity: 0.8;
+    opacity: 0.9;
     top: 75%;
     width: 60%;
     padding: 10px;
     text-align: center;
-    background-color: var(--accent1-color);
-    color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .quote {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-style: italic;
     font-weight: bold;
 }
 
 .verse {
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-weight: bold;
     font-style: italic;
     text-align: right;
@@ -227,12 +226,12 @@ tfoot tr {
 }
 
 .yes {
-    color: green;
+    color: rgb(2, 67, 16);
     font-weight: bold;
 }
 
 .no {
-    color: red;
+    color: rgb(143, 5, 5);
     font-weight: bold;
     font-size: 1.2rem;
 }
